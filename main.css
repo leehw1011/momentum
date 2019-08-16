@@ -1,6 +1,23 @@
 @import 'reset.css';
 
 
-header {
-    color:blueviolet
+body{
+    background-image:url("https://source.unsplash.com/category/nature");
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position : center;
+    background-attachment: fixed;
+    height : 100vh;
+    color : white;
+    display : flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex : 1;
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    
 }
