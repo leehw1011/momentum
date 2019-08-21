@@ -6,7 +6,8 @@ const name = document.getElementById("name");
 const input = document.getElementById("input_name");
 
 function showTime(){
-    time.innerText = new Date();
+    const now = new Date();
+    time.innerText = now.toLocaleTimeString().slice(3);
 }
 
-showTime();
+setInterval(showTime,1000);
